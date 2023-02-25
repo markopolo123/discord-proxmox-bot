@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "discord-ct"
+version = "0.1.0"
+description = ""
+authors = ["Mark Sharpley <698889+markopolo123@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "discord_ct"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+proxmoxer = "^2.0.1"
+requests = "^2.28.2"
+pydantic = "^1.10.5"
+discord-py = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
