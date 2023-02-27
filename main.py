@@ -43,7 +43,7 @@ class ProxmoxVM:
         return status_dict
 
 
-DISCORD_TOKEN = f'{os.getenv("PVE_URL")}'
+DISCORD_TOKEN = f'{os.getenv("DISCORD_TOKEN")}'
 intents = discord.Intents.default()
 intents.message_content = True
 intents.typing = False
